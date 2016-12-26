@@ -1,0 +1,70 @@
+.layout {
+    padding: 0;
+}
+
+.hero--houses {
+    height: 30vh;
+}
+
+.text-lockup h1 {
+	color: #fff;
+}
+
+@media (max-width: 767px) {
+	.hero--houses {
+	 	min-height: 240px;
+	}
+	.text-lockup h1 {
+		font-size: 28px;
+	}
+}
+
+.price-table {
+	margin: 0 auto;
+    width: 100%;
+    max-width: 1020px;
+    font-size: 16px;
+}
+
+.price-table tr, .price-table td {
+	padding: 0;
+    border: 1px solid #f7f7f7;
+}
+
+.house-table--name {
+	font-size: 17px;
+}
+
+.house-table--caption span {
+	display: inline-block;
+}
+
+@media (max-width: 767px) { 
+	.house-table--caption .xs-hide {
+		display: none;
+	}
+
+	.price-table {
+		font-size: 10px;
+	}
+
+	.house-table--name {
+		font-size: 12px;
+	}
+}
+.a-sea-beach-images img {
+	padding-bottom: 20px;
+	display: inline-block;
+}
+.a-sea-beach-images img:nth-child(1) {
+	padding-top: 70px;
+}
+
+@media (max-width: 767px) { 
+	.a-sea-beach-images img:nth-child(1) {
+		padding-top: 20px;
+	}
+	.a-sea-beach-images img {
+		padding-bottom: 10px;
+	}
+}
