@@ -1382,3 +1382,31 @@ body {
 		text-align: center;
 	}
 }
+
+.contact-page-social-container {
+	width: 100%;
+	justify-content: center;
+	margin-top: 24px;
+}
+
+.contact-page-social-container--footer {
+	justify-content: normal;
+}
+
+.contact-page-social-button {
+	height: 34px;
+	padding: 0 16px;
+	border-radius: 2px;
+	color: #fff;
+	align-items: center;
+}
+
+.contact-page-social-button svg {
+	width: 24px;
+	height: 24px;
+	margin-right: 5px;
+}
+
+.contact-page-social-button-facebook {
+	background-color: #4267b2;
+}
